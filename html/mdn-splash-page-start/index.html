@@ -55,7 +55,12 @@
 
     <div class="red-panda">
       <!-- 插入照片元素 -->
-      <picture></picture>
+      <picture>
+        <source media="(max-width: 600px)" srcset="originals/red-panda600.jpg">
+        <source media="(min-width: 601px)" srcset="originals/red-panda1200.jpg">
+        <img src="originals/red-panda1200.jpg" alt="red-panda">
+      </picture>
+      
     </div>
 
   </main>
