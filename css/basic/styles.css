@@ -1,0 +1,34 @@
+h1 {
+    color: red;
+  }
+ 
+  
+p,li {
+  color: green;
+}
+
+.special {
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+  color: blue;
+}
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* 代码为以下元素建立样式：在 <body> 之内，紧接在 <h1> 后面的 <p> 元素的内部，类名为 special。 */
+body h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
